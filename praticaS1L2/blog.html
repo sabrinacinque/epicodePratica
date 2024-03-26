@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Primi passi operativi per creare un modello di pagina HTML per un post.Scopri come iniziare in modo facile">
+    <title>Sviluppo di una pagina web - Blog Epicode</title><!--Inserisco nella head descrizione della pagina web e il titolo-->
+</head>
+<body>
+    <header>
+        <img src="./assets/img/logo.svg" alt="logo epicode">
+        <h1>Epicode - il blog dei developers</h1>
+    </header>
+    <br><br>
+    
+    <nav><!-- menu di navigazione -->
+        <ul>
+            <li><a href="#" title="Homepage">Home</a></li>
+            <li><a href="#" title="Articoli">Articoli</a></li>
+            <li><a href="#" title="LavoraConNoi">Lavora con noi</a>
+        </ul>
+    </nav>
+    <br><br>
+
+    <main><!-- contenuto principale della pagine-->
+          <!--Creo due section nel main :uno per tutta la questione del post e l'altro per il form-->
+
+        <section><!--prima section inerente al post-->
+            <article><!-- faccio una sezione article in quanto ci sono diverse cose che devo inserire nel main -->
+                <!--suddivido anche l'articolo in header main e footer in quanto ci sono più cose, almeno così do un ordine-->
+                <header><!--header dell'articolo-->
+                    <h2>Come creare un template per i post</h2>
+                    <h3>di <cite>Mario Rossi</cite> - pubblicato il 25-10-2020</h3>
+                </header>
+
+                <main><!--Main dell'articolo-->
+                    <!--suddivido in più section il main-->
+
+                    <section><!--primo section,riguardante il post-->
+                        <p>La prima cosa da fare è suddividere in blocchi logici la pagina,identificando le parti comuni da applicare a tutte le pagine</p>
+                        <p>Le varie aree saranno quindi suddivise in:</p>
+                        <ul>
+                            <li>Contenuti di intestazione del tag <code>&lt;header&gt;</code> </li>
+                            <li>Contenuti centrali variabili del tag <code>&lt;main&gt;</code> (corpo principale) </li>
+                            <li>Contenuti di fine pagina comuni,da inserire nel tag <code>&lt;footer&gt;</code> </li>
+                        </ul>
+                    </section>
+
+                    <br><br>
+
+                    <section><!--Secondo section-->
+                        <p>Formattazione del codice</p>
+                        <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS.Perciò
+                            i passi saranno:
+                        </p>
+                        <ol>
+                            <li>Progettare il markup assegnando ad ogni specifico testo il ttag appropriato</li>
+                            <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
+                            <li>Applicare gli stili CSS</li>
+                        </ol>
+                    </section>
+
+                    <br><br>
+
+                    <section><!--terzo section-->
+                        <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressochè totale.</p>
+                        <table>
+                            <caption><b>Diffusione dei CSS</b></caption>
+                            <tr>
+                                <th>Anno&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th><!--non potendo applicare ancora il CSS, metto &nbsp; per creare un poco di spazio tra le colonne-->
+                                <th>% di utilizzo&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                                <th>Supporto browsers</th>
+                            </tr>
+                            <tr>
+                                <td>2000</td>
+                                <td>20%</td>
+                                <td>17%</td>
+                            </tr>
+                            <tr>
+                                <td>2002</td>
+                                <td>35%</td>
+                                <td>22%</td>
+                            </tr>
+                            <tr>
+                                <td>2004</td>
+                                <td>45%</td>
+                                <td>42%</td>
+                            </tr>
+                            <tr>
+                                <td>2008</td>
+                                <td>80%</td>
+                                <td>51%</td>
+                            </tr>
+                            <tr>
+                                <td>2012</td>
+                                <td>100%</td>
+                                <td>76%</td>
+                            </tr>
+                        </table>
+                    </section>
+                </main>
+                <br><br>
+                <footer><!--footer dell'articolo-->
+                    <p>Un test di validazione potrà essere fatto tramite il tool online <a href="https://jigsaw.w3.org/css-validator/" target="_blank" title="Link a w3C">W3C</a> dedicato allo scopo.<br>
+                        Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:
+                    </p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xD4PhCxJq-g?si=FRymi9w3hRqtiPM2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </footer>
+            </article>
+        </section>
+
+        <br><br>
+
+        <section><!-- seconda section riguardante il FORM -->
+            <p>Vuoi rimanere aggiornato su altre novità del blog?Iscriviti alla newsletter:</p>
+            <form method="#" action="#">
+                <label for="email">Inserisci l'email</label>
+                <input tipe="email" name="email" placeholder="Email"><br>
+                <button type="submit">Iscriviti!</button>
+            </form>
+        </section>
+
+    </main>
+
+    <br><br><br>
+
+    <aside><!--sezione aside per gli articoli correlati, prima del footer-->
+        <h5>Articoli correlati</h5>
+        <p><cite>Validare il codice HTML</cite><br>
+           Categoria:develop<br>
+           Data:18-9-2020
+        </p>
+
+        <p><cite>Correggere la sintassi</cite><br>
+            Categoria:develop<br>
+            Data:16-9-2020
+        </p>
+
+        <p><cite>Meno Kb nella pagina</cite><br>
+            Categoria:ottimizzazione<br>
+            Data:30-9-2020
+        </p>
+    </aside>
+
+    <br><br><br>
+
+    <footer><!--footer della pagiina-->
+        <p>Blog Epicode &copy; 2023</p>
+        <p>Testata online di <cite>Mario Rossi</cite>,registata con prot. n. 213/2018 - <address>Via Luigi Einaudi 2 - Milano</address> - P.IVA 00112233.</p>
+        <a href="mailto:info@epicode.school">info@epicode.school</a>
+    </footer>
+
+    
+</body>
+</html>
