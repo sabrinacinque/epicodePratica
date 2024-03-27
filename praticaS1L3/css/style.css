@@ -1,0 +1,120 @@
+header {
+    text-align: center;
+}
+
+header img {
+    width: 200px;
+    height:60px;
+}
+
+header p{
+    color:#004d4c;
+    background-color:#fdfbf1 ;
+    padding:25px;
+    border-top:2px solid #ffd877;
+}
+
+header span{
+    font-weight: bold;
+    
+}
+
+/**************************************** FINE FORMATTAZIONE HEADER ***************************************/
+
+
+/********************************************INIZIO FORMATTAZIONE MAIN ************************************/
+main , footer {
+    width:800px;
+    margin:0 auto;
+}
+
+#title{/*formattazione titolo nella prima section*/
+    text-align:center;
+    font-size:30px;
+}
+
+
+
+        /****************SECONDA SECTION**************/
+#paragrafoPrimaFoto{
+    font-size: 20px;  
+    padding-right:10px;/*il paragrafo non finisce proprio come la foto,quindi ci ho messo un paddign right*/
+}
+
+figure{
+    width:100%;
+    margin-left:0;
+}
+
+#focaccia{
+    border-radius: 15px;
+    width:100%;   
+}
+
+figcaption{
+    text-align: center;
+    color:#999999;
+    margin-top:15px;
+    margin-bottom:30px;
+    font-size: 20px;
+}
+
+#redP{
+    color:#b5460f; 
+}
+
+#greenP{
+    color:#107777;   
+    text-decoration: underline;
+    
+}
+/*gli elementi comuni ai due p dello stesso div, li ho raggruppati*/
+#redP , #greenP{
+    font-weight: bold;
+    margin:0;
+    font-size: 20px;
+    padding-left:20px;
+}
+
+#featured{
+    border-left:2px solid #ffd877;
+}
+
+#secondSection{
+    margin-bottom:60px;
+}
+
+    /************************TERZA SECTION**************/
+
+#titleList{
+    margin-bottom: 50px;
+    border-bottom: 2px solid #c4f3f2;
+    padding-bottom: 20px;/*per far scendere un pò il border-bottom*/
+    
+}
+
+.divList{
+    margin-bottom: 30px;/*per distanziare i div delle liste*/
+    margin-top :0px;
+}
+
+li{
+    margin-top:15px;/*per distanziare un poco i vari li tra di loro*/
+    font-size: 15px;
+}
+
+   /*******************QUARTA SECTION****************/
+
+   #method{
+    margin-bottom: 50px; /*per distanziarlo un poco dal div di sotto con la lista ordinata*/
+   }
+
+   /******************FORMATTAZIONE FOOTER*******************/
+   #linkFooter{
+    color: #639f9f;
+    font-weight: bold;
+   }
+
+   #pFooter{
+    font-size: 20px;
+   }
