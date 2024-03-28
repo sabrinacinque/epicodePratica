@@ -1,7 +1,6 @@
 body{
     background-image: url(../img/sfondo.png);
     background-size: cover;
-    margin:0 auto;
     font-family: "Poppins", sans-serif;
     
 }
@@ -97,6 +96,7 @@ ol{
 #table{
     margin:30px;
     font-size: 30px;
+    border-bottom:3px solid #3673b2 ;
 }
 
 caption{
@@ -144,12 +144,78 @@ th{
     
 }
 
-iframe{
-    border-radius: 20px;
+#articoliCorrelati{
     text-align: center;
 }
 
-/* ELEMENTI NELL' ASIDE */
+iframe{
+    border-radius: 20px;
+    margin-bottom: 40px;
+    
+}
+
+#novita{
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+#pNovita{
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 30px;
+}
+
+form{
+    background-color: #cacacb;
+    margin:30px ;
+    padding: 20px;
+
+}
+
+#email{
+    font-size:30px ;
+    border: none;
+    border-bottom: 3px dotted black;
+}
+
+#submit{
+    background-color:#3366cc ;
+    font-size: 30px;
+    color: white;
+}
+
+
+#articoli{
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+
+      
+.calendario{
+    text-align: right;
+    font-size: 25px;
+    margin-top: 50px;
+}
+    
+.divArticoliCorrelati{
+    text-align: left;
+    padding: 30px;
+    background-color: #cacacb;
+    margin:30px ;
+}
+
+.aCorrelati{
+    font-size: 30px;
+    color:#01aacd ;
+    margin-bottom: 20px;
+}
+
+.h3Categorie{
+    font-size: 30px;
+}
+
 
 /* FOOTER */
 
@@ -163,6 +229,7 @@ footer{
     font-size: 25px;
     justify-content: center;
     line-height: 1.5;
+    text-align: center;
 
     
 }
