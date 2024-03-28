@@ -1,0 +1,176 @@
+body{
+    background-image: url(../img/sfondo.png);
+    background-size: cover;
+    margin:0 auto;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+header{
+    background-image: linear-gradient(#0099cc, #117788);
+    margin:30px; 
+    text-align: center;
+    padding:50px;
+    box-shadow: 5px 5px 3px #738885 ;
+}
+
+.titleH1 , .titleH2{ /*raggruppo gli elementi in comune a titleH1 e titleH2*/
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.titleH1{
+    margin-top:60px;
+    margin-bottom: 50px;
+}
+
+
+.titleH2{
+    margin-top:20px;
+}
+/* FINE HEADER */ 
+
+
+/* INIZIO MAIN */
+
+main {
+    background-color: white;
+    margin:30px; 
+    box-shadow: 0px 5px 0px 3px #738885 ;
+
+
+}
+
+article{
+    padding-left: 30px;
+    padding-right: 60px;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-bottom: 50px;;
+}
+
+
+#h1Titolo{
+    font-size: 60px;
+    font-weight: 600;
+    padding-top: 60px;
+}
+
+#h2Titolo{
+    color:#8b91b2;
+    font-size: 35px;
+    font-weight: 400;
+    padding-top: 30px;
+    line-height: 1.5;
+}
+
+#primaParte{
+    font-size: 30px;
+
+}
+
+span{
+    color:#aa2072;
+
+}
+
+code{
+    border: 2px solid ;
+    border-radius:15px;
+    background-color: #ddddde;
+}
+
+ul {
+    list-style-type: disc; /* Imposta i pallini come tipo di lista */
+}
+
+.lista{
+    padding-left: 60px;
+}
+
+ol{
+    list-style-type:number;
+}
+
+/******************TABELLA***********************/
+#table{
+    margin:30px;
+    font-size: 30px;
+}
+
+caption{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+tr{
+    padding: 30px;
+}
+
+.rigaGrigia{
+    background-color: #c3bebe;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;;
+}
+
+td{
+    padding: 30px;
+    text-align: center;
+}
+
+th{
+    padding: 30px; 
+    background-color:#3673b2 ;
+    color: white;
+    border-left: 1px solid white;
+}
+
+/* FORM */
+
+
+#secondaParte{
+    padding-left: 30px;
+    padding-right: 60px;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 50px;;
+}
+
+#tool{
+    color:#1686c7 ;
+    
+}
+
+iframe{
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+
+
+footer{
+    background-image: linear-gradient(#005566, #2a3338);
+    margin:30px;
+    padding:50px;
+    box-shadow: 5px 5px 3px #738885 ;
+    color:white;
+    font-size: 25px;
+    justify-content: center;
+    line-height: 1.5;
+
+    
+}
+
+.pFooter{
+    margin-bottom: 30px;
+}
+
+footer a{
+    color : #fa22c8;
+}
